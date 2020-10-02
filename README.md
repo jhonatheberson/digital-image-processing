@@ -62,22 +62,57 @@
 
 ## Features
 
-- [x] Companies or entities can register on the web platform by sending:
+- [x] Initial concepts:
 
-  - [x] an image of the collection point
-  - [x] entity name, email and whatsapp
-  - [x] and the address so that it can appear on the map
+  - [x] What is OpenCV
+  - [x] Hello, OpenCV - [helloworld.ipynb](https://github.com/jhonatheberson/digital-image-processing/helloworld.ipynb)
+  <!-- - [x] and the address so that it can appear on the map
   - [x] in addition to selecting one or more collection items:
     - lamps
     - Batteries
     - papers and cardboard
     - electronic waste
     - organic waste
-    - kitchen oil
+    - kitchen oil -->
 
-- [x] Users have access to the mobile application, where they can:
-  - [x] browse the map to see the registered institutions
-  - [x] contact the entity via E-mail or WhatsApp
+- [x] Manipulating pixels in an image:
+
+  - [x] Description of the program **pixel.ipynb**
+  - [x] Exercises
+
+- [x] Filling regions:
+
+  - [x] Description of the program **labeling.ipynb**
+  - [x] Exercises
+
+- [ ] Histogram manipulation:
+
+  - [ ] Description of the program **histogram.ipynb**
+  - [ ] Exercises
+
+- [ ] Spatial domain filtering I:
+
+  - [] Description of the program **spaceFilter.ipynb**
+  - [] Exercises
+
+- [] Spatial domain filtering II:
+
+  - [] Exercises
+
+- [] Frequency domain filtering:
+
+  - [] Description of the program **dft.ipynb**
+  - [] Exercises
+
+- [] Edge detection with the Canny algorithm:
+
+  - [ ] Canny and art with pointillism
+  - [] Description of the program **pointillism.ipynb**
+  - [] Exercises
+
+- [] Vector quantization with k-means:
+  - [] Description of the program **kmeans.ipynb**
+  - [] Exercises
 
 ---
 
