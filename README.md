@@ -92,31 +92,31 @@
 
 - [ ] Spatial domain filtering I:
 
-  - [] Description of the program **spaceFilter.ipynb**
-  - [] Exercises
+  - [ ] Description of the program **spaceFilter.ipynb**
+  - [ ] Exercises
 
-- [] Spatial domain filtering II:
+- [ ] Spatial domain filtering II:
 
-  - [] Exercises
+  - [ ] Exercises
 
-- [] Frequency domain filtering:
+- [ ] Frequency domain filtering:
 
-  - [] Description of the program **dft.ipynb**
-  - [] Exercises
+  - [ ] Description of the program **dft.ipynb**
+  - [ ] Exercises
 
-- [] Edge detection with the Canny algorithm:
+- [ ] Edge detection with the Canny algorithm:
 
   - [ ] Canny and art with pointillism
-  - [] Description of the program **pointillism.ipynb**
-  - [] Exercises
+  - [ ] Description of the program **pointillism.ipynb**
+  - [ ] Exercises
 
-- [] Vector quantization with k-means:
-  - [] Description of the program **kmeans.ipynb**
-  - [] Exercises
+- [ ] Vector quantization with k-means:
+  - [ ] Description of the program **kmeans.ipynb**
+  - [ ] Exercises
 
 ---
 
-## Layout
+<!-- ## Layout
 
 The application layout is available on Figma:
 
@@ -140,7 +140,7 @@ The application layout is available on Figma:
   <img alt="Ecoleta" title="#Ecoleta" src="./assets/sucesso-web.svg" width="400px">
 </p>
 
----
+--- -->
 
 ## How it works
 
@@ -155,32 +155,34 @@ Both Frontend and Mobile need the Backend to be running to work.
 ### Pre-requisites
 
 Before you begin, you will need to have the following tools installed on your machine:
-[Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/).
-In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
+[Git](https://git-scm.com), [Anaconda](https://www.anaconda.com/).
+In addition, it is good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/)
 
-#### Rodando o Backend (servidor)
+#### running (jupyter notebook)
 
 ```bash
 
 # Clone this repository
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
+$ git clone git@github.com:jhonatheberson/digital-image-processing.git
 
-# Access the project folder cmd/terminal
-$ cd README-ecoleta
+# installing the dependencies in your conda environment
+$ conda env install -f libs.yml
 
-# go to the server folder
-$ cd server
+# updating the dependencies in your environment
+$ conda env update -f libs.yml
 
 # install the dependencies
-$ npm install
+$ yarn
 
-# Run the application in development mode
-$ npm run dev:server
+# open the jupyter notebook to open the file
+$ jupyter notebook
 
-# The server will start at port: 3333 - go to http://localhost:3333
+# open any file with .ipynb extension and click
+#"Shift + enter" to execute
 
 ```
 
+<!--
 <p align="center">
   <a href="https://github.com/tgmarinho/README-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
@@ -206,13 +208,22 @@ $ npm run start
 
 # The application will open on the port: 3000 - go to http://localhost:3000
 
-```
+``` -->
 
 ---
 
 ## Tech Stack
 
 The following tools were used in the construction of the project:
+
+**image precessing** ([python](https://www.python.org/))
+
+- **[OpenCV](https://opencv.org/)**
+- **[Anaconda](https://www.anaconda.com/)**
+- **[Tensorflow](https://www.tensorflow.org/learn?hl=pt-br)**
+- **[matplotlib](https://matplotlib.org/)**
+- **[scipy](https://www.scipy.org/)**
+- **[sciki-learn](https://scikit-learn.org/stable/)**
 
 <!-- #### **Website** ([React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/))
 
