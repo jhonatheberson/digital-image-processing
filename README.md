@@ -146,9 +146,9 @@ The application layout is available on Figma:
 
 This project is divided into three parts:
 
-1. Backend (server folder)
-2. Frontend (web folder)
-3. Mobile (mobile folder)
+1. jupyter notebook (\*.ipynb)
+<!-- 2. Frontend (web folder)
+2. Mobile (mobile folder) -->
 
 Both Frontend and Mobile need the Backend to be running to work.
 
