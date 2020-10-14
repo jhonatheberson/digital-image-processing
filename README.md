@@ -77,22 +77,22 @@
 
 - [x] Manipulating pixels in an image:
 
-  - [x] Description of the program **pixel.ipynb**
-  - [x] Exercises
+  - [x] Description of the program [pixel.ipynb](https://github.com/jhonatheberson/digital-image-processing/pixel.ipynb)
+  - [x] Exercises [changeregions.ipynb](https://github.com/jhonatheberson/digital-image-processing/changeregions.ipynb) and [regions.ipynb](https://github.com/jhonatheberson/digital-image-processing/regions.ipynb)
 
 - [x] Filling regions:
 
-  - [x] Description of the program **labeling.ipynb**
-  - [x] Exercises
+  - [x] Description of the program [labeling.ipynb](https://github.com/jhonatheberson/digital-image-processing/labeling.ipynb)
+  - [x] Exercises [labeling_not_edge.ipinb](https://github.com/jhonatheberson/digital-image-processing/labeling_not_edge.ipinb) and [bubblesWithHoles.ipynb](https://github.com/jhonatheberson/digital-image-processing/bubblesWithHoles.ipynb)
 
 - [ ] Histogram manipulation:
 
-  - [ ] Description of the program **histogram.ipynb**
-  - [ ] Exercises
+  - [ ] Description of the program [histogram.ipynb](https://github.com/jhonatheberson/digital-image-processing/histogram.ipynb)
+  - [ ] Exercises [labeling_not_edge.ipinb](https://github.com/jhonatheberson/digital-image-processing/labeling_not_edge.ipinb)
 
 - [ ] Spatial domain filtering I:
 
-  - [ ] Description of the program **spaceFilter.ipynb**
+  - [ ] Description of the program [spaceFilter.ipynb](https://github.com/jhonatheberson/digital-image-processing/spaceFilter.ipynb)
   - [ ] Exercises
 
 - [ ] Spatial domain filtering II:
