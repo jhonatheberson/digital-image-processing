@@ -65,7 +65,7 @@
 - [x] Initial concepts:
 
   - [x] What is OpenCV
-  - [x] Hello, OpenCV - [helloworld.ipynb](https://github.com/jhonatheberson/digital-image-processing/ipynb/helloworld.ipynb)
+  - [x] Hello, OpenCV - [helloworld.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/helloworld.ipynb)
   <!-- - [x] and the address so that it can appear on the map
   - [x] in addition to selecting one or more collection items:
     - lamps
@@ -77,27 +77,27 @@
 
 - [x] Manipulating pixels in an image:
 
-  - [x] Description of the program [pixel.ipynb](https://github.com/jhonatheberson/digital-image-processing/ipynb/pixel.ipynb)
-  - [x] Exercises [changeRegions.ipynb](https://github.com/jhonatheberson/digital-image-processing/ipynb/changeRegions.ipynb) and [regions.ipynb](https://github.com/jhonatheberson/digital-image-processing/ipynb/regions.ipynb)
+  - [x] Description of the program [pixel.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/pixel.ipynb)
+  - [x] Exercises [changeRegions.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/changeRegions.ipynb) and [regions.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/regions.ipynb)
 
 - [x] Filling regions:
 
-  - [x] Description of the program [labeling.ipynb](https://github.com/jhonatheberson/digital-image-processing/ipynb/labeling.ipynb)
-  - [x] Exercises [labelingNotEdge.ipinb](https://github.com/jhonatheberson/digital-image-processing/ipynb/labelingNotEdge.ipinb) and [bubblesWithHoles.ipynb](https://github.com/jhonatheberson/digital-image-processing/ipynb/bubblesWithHoles.ipynb)
+  - [x] Description of the program [labeling.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/labeling.ipynb)
+  - [x] Exercises [labelingNotEdge.ipinb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/labelingNotEdge.ipinb) and [bubblesWithHoles.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/bubblesWithHoles.ipynb)
 
 - [x] Histogram manipulation:
 
-  - [x] Description of the program [histogram.ipynb](https://github.com/jhonatheberson/digital-image-processing/ipynb/histogram.ipynb)
-  - [x] Exercises [histogramEqualization.ipynb](https://github.com/jhonatheberson/digital-image-processing/ipynb/histogramEqualization.ipynb) and [motionDetector.ipynb](https://github.com/jhonatheberson/digital-image-processing/ipynb/motionDetector.ipynb)
+  - [x] Description of the program [histogram.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/histogram.ipynb)
+  - [x] Exercises [histogramEqualization.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/histogramEqualization.ipynb) and [motionDetector.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/motionDetector.ipynb)
 
 - [ ] Spatial domain filtering I:
 
-  - [ ] Description of the program [spaceFilter.ipynb](https://github.com/jhonatheberson/digital-image-processing/ipynb/spaceFilter.ipynb)
-  - [ ] Exercises [laplgaus.ipynb](https://github.com/jhonatheberson/digital-image-processing/ipynb/laplgaus.ipynb)
+  - [ ] Description of the program [spaceFilter.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/spaceFilter.ipynb)
+  - [ ] Exercises [laplgaus.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/laplgaus.ipynb)
 
-- [ ] Spatial domain filtering II: [addweighted.ipynb](https://github.com/jhonatheberson/digital-image-processing/ipynb/addweighted.ipynb)
+- [ ] Spatial domain filtering II: [addweighted.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/addweighted.ipynb)
 
-  - [ ] Exercises [tiltshift.ipynb](https://github.com/jhonatheberson/digital-image-processing/ipynb/tiltshift.ipynb) and [tiltshiftvideo.ipynb](https://github.com/jhonatheberson/digital-image-processing/ipynb/tiltshiftvideo.ipynb)
+  - [ ] Exercises [tiltshift.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/tiltshift.ipynb) and [tiltshiftvideo.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/ipynb/tiltshiftvideo.ipynb)
 
 - [ ] Frequency domain filtering:
 
