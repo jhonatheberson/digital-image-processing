@@ -85,10 +85,10 @@
   - [x] Description of the program [labeling.ipynb](https://github.com/jhonatheberson/digital-image-processing/labeling.ipynb)
   - [x] Exercises [labeling_not_edge.ipinb](https://github.com/jhonatheberson/digital-image-processing/labeling_not_edge.ipinb) and [bubblesWithHoles.ipynb](https://github.com/jhonatheberson/digital-image-processing/bubblesWithHoles.ipynb)
 
-- [ ] Histogram manipulation:
+- [x] Histogram manipulation:
 
-  - [ ] Description of the program [histogram.ipynb](https://github.com/jhonatheberson/digital-image-processing/histogram.ipynb)
-  - [ ] Exercises [labeling_not_edge.ipinb](https://github.com/jhonatheberson/digital-image-processing/labeling_not_edge.ipinb)
+  - [x] Description of the program [histogram.ipynb](https://github.com/jhonatheberson/digital-image-processing/histogram.ipynb)
+  - [x] Exercises [histogramEqualization.ipynb](https://github.com/jhonatheberson/digital-image-processing/histogramEqualization.ipynb) and [motiondetector.ipynb](https://github.com/jhonatheberson/digital-image-processing/motiondetector.ipynb)
 
 - [ ] Spatial domain filtering I:
 
