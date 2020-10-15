@@ -93,11 +93,11 @@
 - [ ] Spatial domain filtering I:
 
   - [ ] Description of the program [spaceFilter.ipynb](https://github.com/jhonatheberson/digital-image-processing/spaceFilter.ipynb)
-  - [ ] Exercises
+  - [ ] Exercises [laplgaus.ipynb](https://github.com/jhonatheberson/digital-image-processing/laplgaus.ipynb)
 
-- [ ] Spatial domain filtering II:
+- [ ] Spatial domain filtering II: [addweighted.ipynb](https://github.com/jhonatheberson/digital-image-processing/addweighted.ipynb)
 
-  - [ ] Exercises
+  - [ ] Exercises [tiltshift.ipynb](https://github.com/jhonatheberson/digital-image-processing/tiltshift.ipynb) and [tiltshiftvideo.ipynb](https://github.com/jhonatheberson/digital-image-processing/tiltshiftvideo.ipynb)
 
 - [ ] Frequency domain filtering:
 
