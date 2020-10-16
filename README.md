@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Ecoleta" title="#Ecoleta" src="./assets/banner.png" />
+    <img alt="Histogram" title="#histogram" src=".first_unit/assets/frame.png"/>
 </h1>
 
 <h1 align="center">
