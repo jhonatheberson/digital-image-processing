@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Histogram" title="#histogram" src=".first_unit/assets/frame.png"/>
+    <img alt="Histogram" title="#histogram" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/assets/frame.png"/>
 </h1>
 
 <h1 align="center">
