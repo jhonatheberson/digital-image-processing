@@ -77,7 +77,7 @@
 
 - [x] Manipulating pixels in an image:
 
-  - [x] Description of the program [pixel.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/pixel.ipynb)
+  - [x] Description of the program [pixel.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/pixels.ipynb)
   - [x] Exercises [changeRegions.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/changeRegions.ipynb) and [regions.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/regions.ipynb)
 
 - [x] Filling regions:
