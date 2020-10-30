@@ -122,20 +122,32 @@ Uma vez que desejamos reconhecer os objetos com buracos, iremos usar o algoritmo
    A esses adicionamos uma opção para a aplicação encadeada dos filtros Gaussiano e Laplaciano, nessa ordem. Para acessar essa nova opção o usuário deve digitar 'x', o caractere digitado serve como input para uma instrução switch, o case x foi adicionado sobre o case g:, que trata a seleção do filtro Gaussiano. Para todos os efeitos o programa está executando uma filtragem com a máscara Gaussiana. Para acompanhar no código qual filtro havia sido selecionado, foi necessária a inclusão da variável char keys, uma vez que no runtime o único registro do filtro selecionado é a máscara em mask. Em cada case foi inserida uma instrução para registrar qual filtro foi selecionado em keys. Após a operação de filtragem foi inserido um condicional que testa se o filtro escolhido foi o 'x', se tiver sido, a segunda filtragem é executada na imagem de saída da primeira, observe o trexo de código:
 
      <h1 align="center">
-   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/assets/frame.png"/>
+   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/assets/filtermedia.png"/>
    </h1>
 
      <h1 align="center">
-   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/assets/frame.png"/>
+   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/assets/filtergauss.png"/>
    </h1>
 
      <h1 align="center">
-   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/assets/frame.png"/>
+   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/assets/filterhorizontal.png"/>
+   </h1>
+
+   <h1 align="center">
+   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/assets/filtervertical.png"/>
+   </h1>
+
+   <h1 align="center">
+   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/assets/filterlaplacian.png"/>
+   </h1>
+
+   <h1 align="center">
+   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/assets/filterboost.png"/>
    </h1>
 
    É possível observar nas imagens que naquela tratada inicialmente com o gaussiano, um filtro de borramento, as bordas da imagem são menos evidentes, mais apagadas.
 
-   O código na íntegra pode ser encontrado [aqui](www)
+   O código na íntegra pode ser encontrado [aqui](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/spatialFilter.ipynb)
 
 # Filtros Espaciais II
 
