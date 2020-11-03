@@ -155,10 +155,18 @@ Uma vez que desejamos reconhecer os objetos com buracos, iremos usar o algoritmo
 
    Tiltshift é um processo de edição de imagem (e de fotografia) que usa o borramento e a angulação da imagem para simular que uma paisagem seja, na verdade, uma miniatura. Esse efeito pode ser obtido pela associação de duas versões de uma mesma imagem, sendo uma com borramento e outra sem. A imagem com borramento é exibida nas margens superior e inferior para simular o efeito de distância, enquanto a imagem em foco aparece no centro, representando justamente o foco da imagem final. Esse programa tem como entrada uma imagem e em tempo de operação pede ao usuário mais 3 inputs. Em sliders que aparecem juntamente com a imagem de saída o usuário pode configurar a posição central da janela de foco, a largura da janela de foco, e a "agressividade" do decaimento entre as duas imagens. A ponderação entre as duas imagens é dada pela função alfa que é função do x, l1, l2 e d, onde x é a linha da imagem, d é o decaimento, e l1 e l2 são as linhas nas quais o alfa é 0.5. l1 pode ser encontrado como a posição da janela menos metade da largura, e l2 a posição da janela mais a metade da largura.
 
-   $$
-   alfa(x)=12⋅(tanh(x−l1d)−tanh(x−l2d))alfa(x)=12⋅(tanh(x-l1d)-tanh(x-l2d))
-   $$
+   <h1 align="center">
+   <img alt="Formula tiltshift" title="#Figure 2. Formula tiltshift" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/assets/formula_tilt.png"/>
+   </h1>
 
    As imagens abaixo tem o propósito de ilustrar como a alteração dos parâmetros posição e largura modificam a janela:
 
+    <h1 align="center">
+   <img alt="Formula tiltshift" title="#Figure 2. Formula tiltshift" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/assets/tiltshift_static.png"/>
+   </h1>
+
 2. Tiltshift em Vídeo:
+
+<h1 align="center">
+   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/assets/tiltshift.png"/>
+   </h1>
