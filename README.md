@@ -90,14 +90,14 @@
   - [x] Description of the program [histogram.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/histogram.ipynb)
   - [x] Exercises [histogramEqualization.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/histogramEqualization.ipynb) and [motionDetector.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/motionDetector.ipynb)
 
-- [ ] Spatial domain filtering I:
+- [x] Spatial domain filtering I:
 
-  - [ ] Description of the program [spaceFilter.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/spaceFilter.ipynb)
-  - [ ] Exercises [laplgaus.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/laplgaus.ipynb)
+  - [x] Description of the program [spaceFilter.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/spaceFilter.ipynb)
+  - [x] Exercises [laplgaus.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/laplgaus.ipynb)
 
-- [ ] Spatial domain filtering II: [addweighted.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/addweighted.ipynb)
+- [x] Spatial domain filtering II: [addweighted.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/addweighted.ipynb)
 
-  - [ ] Exercises [tiltshift.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/tiltshift.ipynb) and [tiltshiftvideo.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/tiltshiftvideo.ipynb)
+  - [x] Exercises [tiltshift.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/tiltshift.ipynb) and [tiltshiftVideo.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/tiltshiftVideo.ipynb)
 
 - [ ] Frequency domain filtering:
 
