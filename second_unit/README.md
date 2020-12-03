@@ -94,7 +94,7 @@ Uma vez que desejamos reconhecer os objetos com buracos, iremos usar o algoritmo
    </h1>
 
    <h1 align="center">
-   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/sishi_kmeans.png"/>
+   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/sushi_kmeans.png"/>
    </h1>
 
    Para realizar este exercício foi necessário utilizar a função split() para separar os canais e armazená-los nos vetores ‘planes[]’ (vetores das componentes R, G e B) para equalizá-los de forma separada através da função equalizeHist(), após a equalização ser feita em cada uma das componentes de cor, é feito o cálculo do histograma para cada uma delas através da função calcHist(). Logo depois, fazemos a operação reversa através da função merge() juntando os canais em uma única matriz. Depois disso é feito a normalização e o plot dos histogramas dos 3 canais no canto superior esquerdo do frame.
