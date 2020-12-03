@@ -112,7 +112,7 @@
 
 - [ ] Vector quantization with k-means:
   - [ ] Description of the program [kmeans.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/kmeans.ipynb)
-  - [ ] Exercises [kmeans_RANDOM_CENTERS.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/kmeans_RANDOM_CENTERS.ipynb)
+  - [ ] Exercises [kmeansRandomCenters.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/kmeans_RANDOM_CENTERS.ipynb)
 
 ---
 
