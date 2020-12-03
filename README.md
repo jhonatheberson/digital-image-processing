@@ -101,18 +101,18 @@
 
 - [ ] Frequency domain filtering:
 
-  - [ ] Description of the program **dft.ipynb**
-  - [ ] Exercises
+  - [ ] Description of the program [dft.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/dft.ipynb)
+  - [ ] Exercises [dft.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/dft.ipynb)
 
 - [ ] Edge detection with the Canny algorithm:
 
-  - [ ] Canny and art with pointillism
-  - [ ] Description of the program **pointillism.ipynb**
-  - [ ] Exercises
+  - [ ] Canny and art with pointillism [pointillesm.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/pointillesm.ipynb)
+  - [ ] Description of the program [canny.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/canny.ipynb)
+  - [ ] Exercises [dft.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/dft.ipynb)
 
 - [ ] Vector quantization with k-means:
-  - [ ] Description of the program **kmeans.ipynb**
-  - [ ] Exercises
+  - [ ] Description of the program [kmeans.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/kmeans.ipynb)
+  - [ ] Exercises [kmeans.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/kmeans.ipynb)
 
 ---
 
