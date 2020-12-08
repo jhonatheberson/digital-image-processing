@@ -2,7 +2,7 @@
 
 1. Transformada Discreta de Fourier (DFT):
 
-   O programa a seguir recebe como entrada uma imagem e coordenadas (x0,y0) e (x1,y1) para desenhar uma região dentro da qual as cores serão invertidas. Esse efeito é obtido através da substituição do valor de um pixel por seu complemento para 255 (se anteriormente o valor fosse 10, vira 245, por exemplo). A imagem abaixo foi colocada como entrada, juntamente com as coordenadas (50,250) e (250, 350).
+   Transformada de Fourier é transformada e expressar um sinal contínuo como uma conbinação de funções senoidais. A transformada Discreta de Fourier, é aplicada a sinais discretos.
 
    <h1 align="center">
    <img alt="Histogram" title="#Figure 1. Imagem de Entrada" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/img_corrompida_cortina_de_pontos.png"/>
