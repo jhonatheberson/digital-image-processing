@@ -36,42 +36,36 @@
 
 1. Algoritmo de Canny:
 
-   Considere a figura abaixom, há somente dois tons de cinza (0 e 255) presentes nela, na qual os objetos têm tom de cinza 255 e o fundo tem tom de cinza 0.
+   O Algoritmo de Canny ou detector de bordas de Canny ele pode ser usado para varios aplicações de processamento de imagens e visão artificial, porque podemos utilizar para segmentação automatica e encontrar objetos em cenas e pontos, é mais rápidos e eficiêntes para encontrar discontinuidades em uma imagem. O objetivo do algoritmo é encontrar bordas situadas em máximos locais do gradiente podendo ser realizado com seguintes passos:
+
+   1. Convolução com o filtro Gaussiano, cálculo da magnitude e ângulo do gradiente.
+   2. Afinação das cristas largas do gradiente.
+   3. Limiarização com histerese é usada para a quebra do contorno (borda tracejada).
 
    <h1 align="center">
    <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/biel.png"/>
    </h1>
 
-   Nesta questão fizemos uma busca por objetos percorrendo toda a imagem, da esquerda para direita e de cima para baixo, quando achamos um objeto na imagem executamos o algoritmo floodfill() e mudamos o tom de cinza dele para um que seja diferente de 0 e 255 e prechemos com o valor do contador de objetos. Assim ocorrerá para todos os objetos que tenham tom de cinza igual a 255. Quando terminar a varredura da imagem, o valor do contador será a quantidade de objetos presentes na imagem e os objetos contados ficarão com o tom de cinza diferentes. Na figura a seguir podemos ver o resultado do processamento da imagem.
+   Essa imagem acima iremos aplicar a detector de bordas Cannyn resultando na imagem abaixo:
 
    <h1 align="center">
    <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/bordas_canny.png"/>
    </h1>
 
-   Fixamos a rotulação em apenas um tom de cinza porque só existem 256 possibilidades de tons de cinza que um computador consegue distinguir, se houvesse mais de 255 objetos na imagem e o processo de rotulação continuasse como estava antes (quando achasse um novo objeto acrescentava a ele um tom de cinza a mais) o floodfill() iria ficar comprometido, pois quando a contagem chegasse em um valor cujo tom de cinza do objeto fosse igualado ou ultrapassasse 255 o mesmo objeto poderia ser contado mais de uma vez, pois valores de tons de cinza maiores do que 255 iriam ser automaticamente normalizados para 255, assim causando mais contagens do que objetos.
-
 2. Algoritmo de pontilhismo:
 
-   O projeto a seguir recebe uma imagem binária como entrada, objetos sendo brancos e o fundo preto, e conta quantos desses objetos têm buracos (um ou mais) e quantos não têm. Uma vez que vamos estar contando dois tipos distintos de objetos, trocamos a rotulação por dois contadores. Um exemplo de entrada é a imagem a seguir:
+   Nessa etapa iremos usar o algoritmo de Canny para realizar arte digital, usando pontilhismo, onde a imagem é pintada por pontos e foi usada muito essa técnica por [George Seurat](https://www.georgesseurat.org/):
 
     <h1 align="center">
-   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/bolhas.png"/>
+   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/pontilhismo.png"/>
    </h1>
 
-   Para retirar os objetos que estão em contato com as bordas, inicialmente o programa percorre a borda e se achar uma pixel com 255, usa seedfill para preencher com 0, assim rirando os elementos das bordas
+   Efeitos pontilhistas interessantes podem ser criados com variantes simples dessa técnica. Exemplo: pular sequências de pixels na imagem de referência para dar a impressão de que os pontos estão separados na tela - isso é bastante comum na arte pontilhista. Outro efeito interessante é realizar deslocamentos aleatórios nos centros dos círculos, para que a imagem gerada permaneca menos artificial. Finalmente, é razoável percorrer a matriz de referência usando uma sequência aleatória, principalmente quando a técnica pontilhista realiza a sobreposição de círculos.
+
+   Irei usar o a técnica de Canny com o pontilhismo para gerar uma minha arte digital:
 
   <h1 align="center">
-  <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/noEdge.png"/>
-  </h1>
-
-Uma vez que desejamos reconhecer os objetos com buracos, iremos usar o algoritmo de contagem, onde cada obejeto terá uma cor diferente, agora iremos as bolhas com buracos tera duas cores, cinca de acordo com a contagem e 0 no buraco da bolha.portando vamos fazer que a cor de fundo fazendo seedfill em 255 no ponto (0,0) da imagem., levando o fundo para 0. Agora a imagem será varrida em busca de objetos com buracos. Quando um pixel 0 ou seja preto for encontrado, iremos incrementar o contador pois esse objeto é uma bulha com buraco e aplicar seedfill para nesse ponto e no vizinho a direita, com 255, ou seja da cor de fundo, assim fazendo que ele não seja mais contado e tirado da imagem.
-
-  <h1 align="center">
-  <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/hobbesWhite.png"/>
-  </h1>
-
-  <h1 align="center">
-  <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/bobbesHoles.png"/>
+  <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/pointillesm.png"/>
   </h1>
 
 # Quantização vetorial com k-médias:
