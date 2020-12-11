@@ -72,18 +72,34 @@
 
 1. k-médias:
 
-   Este exercício tem como objetivo equalizar imagens (frames) capturadas por uma câmera em tempo real e mostrar os seus respectivos histogramas. Para realizar este exercício temos que ter uma noção do que é a equalização de imagens. Equalização é um método que melhora significativamente o contraste da imagem, fazendo com que a visualização de imagens muito escuras ou muito claras se torne melhor. Ela faz a distribuição de ocorrências das cores no histograma, fazendo com que as cores que estão muito concentradas em uma região do histrograma sejas distribuídas por toda a faixa do histograma, fazendo com que certos locais da imagem que antes tinham difícil visualização possam ser destacadas. Temos um exemplo disso logo abaixo:
+   Dá-se o nome de quantização ao grupo de técnicas usadas para mapear os dados presentes em um conjunto grande em um conjunto menor de elementos. É normalmente usada para fins de compressão de dados. Quando um grande conjunto de pontos (vetores) é dividido em em grupos de tamanho menor, diz-se que tem uma quantização vetorial, onde cada grupo é representado por um centróide.
 
-     <h1 align="center">
-   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/sushi.jpg"/>
-   </h1>
+Dos vários algoritmos de quantização vetorial que podem ser encontrados na literatura, o k-means está entre os mais populares. É um algoritmo simples que particiona o espaço N-dimensional em células de Voronoi, onde cada célula é determinada por um centro. O conjunto de todos os pontos no espaço cuja distância para um dado centro é menor que para todos os outros centros define a célula.
+
+O algoritmo k-means funciona conforme os seguintes passos:
+
+1. Escolha k como o número de classes para os vetores xi de N amostras, i=1,2,⋯,N.
+
+2. Escolha m1,m2,⋯,mk como aproximações iniciais para os centros das classes.
+
+3. Classifique cada amostra xi usando, por exemplo, um classificador de distância mínima (distância euclideana).
+
+4. Recalcule as médias mj usando o resultado do passo anterior.
+
+5. Se as novas médias são consistentes (não mudam consideravelmente), finalize o algoritmo. Caso contrário, recalcule os centros e refaça a classificação.
+
+  <h1 align="center">
+<img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/sushi.jpg"/>
+</h1>
 
    <h1 align="center">
    <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/sushi_kmeans.png"/>
    </h1>
 
-   Para realizar este exercício foi necessário utilizar a função split() para separar os canais e armazená-los nos vetores ‘planes[]’ (vetores das componentes R, G e B) para equalizá-los de forma separada através da função equalizeHist(), após a equalização ser feita em cada uma das componentes de cor, é feito o cálculo do histograma para cada uma delas através da função calcHist(). Logo depois, fazemos a operação reversa através da função merge() juntando os canais em uma única matriz. Depois disso é feito a normalização e o plot dos histogramas dos 3 canais no canto superior esquerdo do frame.
-
 2. Kmeans random centers:
 
-   O projeto a seguir utiliza alterações no histograma dos frames de um vídeo para detectar movimentos na cena. Para um detector mais básico, utilizamos apenas uma das componentes de cor da imagem. As entradas para o programa são um valor que indica a sensibilidade do detector, e comparamos o histograma da cena atual com anterior se tiver uma diferença entre o histograma é tocado um alarme, esse dectctor é muito preciso, algo que para aplicação não é necessario.
+   Algo que se percebe do algoritmo k-means é que cada execução leva a um resultado diferente do resultado anterior. Embora o algoritmo normalmente estabilize, algumas execuções podem criar aglomerações melhores que outras. Logo, é comum executar o algoritmo algumas vezes e verificar qual execução gera melhor compactação dos dados. Uma das medidas de compactação - a usada pelo OpenCV - verifica a soma dos quadrados das distâncias dos pontos da amostra para seus respectivos centros.
+
+   <h1 align="center">
+   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/kmens_10.png"/>
+   </h1>

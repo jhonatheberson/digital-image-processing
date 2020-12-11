@@ -110,9 +110,9 @@
   - [x] Description of the program [canny.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/canny.ipynb)
   - [x] Exercises [cannypoints.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/cannypoints.ipynb)
 
-- [ ] Vector quantization with k-means:
-  - [ ] Description of the program [kmeans.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/kmeans.ipynb)
-  - [ ] Exercises [kmeansRandomCenters.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/kmeansRandomCenters.ipynb)
+- [x] Vector quantization with k-means:
+  - [x] Description of the program [kmeans.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/kmeans.ipynb)
+  - [x] Exercises [kmeansRandomCenters.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/kmeansRandomCenters.ipynb)
 
 ---
 
