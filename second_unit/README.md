@@ -2,43 +2,34 @@
 
 1. Transformada Discreta de Fourier (DFT):
 
-   Transformada de Fourier é transformada e expressar um sinal contínuo como uma conbinação de funções senoidais. A transformada Discreta de Fourier, é aplicada a sinais discretos.
+   Transformada de Fourier é transformada e expressar um sinal contínuo como uma conbinação de funções senoidais. A transformada Discreta de Fourier, é aplicada a sinais discretos por exemplo imagens digitais. Portanto DFT mostra uma nova representação da imagem no domínio da frequência. A DFT é muito aplicada para filtrar ruídos periodicos (repetições), assim podemos eliminar esse ruido com DFT. esse figura abaixo mostra isso acontecendo.
 
    <h1 align="center">
    <img alt="Histogram" title="#Figure 1. Imagem de Entrada" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/img_corrompida_cortina_de_pontos.png"/>
    </h1>
 
-   A imagem será varrida somente entre as linhas e colunas definidas na entrada pelos pontos (x0,y0) e (x1,y1), e somente entre essas que os valores serão substituídos pelo complemento. A imagem abaixo reflete a saída do exemplo acima.
+   A imagem a cima está comrrumpida por padrão senoidal (pontos presentes nessa imagem)
 
    <h1 align="center">
    <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/DFT_img_corrompida.png"/>
    </h1>
 
+   Essa imagem é representação Discreta de Fourrier, da imagem comrrumpida, logo podemos isolar esse ruido e retirar da DFT, e realizar a Transformação Inversa de Fourier.
+
 2. Filtro homomórfico:
 
-   Este problema deve receber como entrada uma imagem, e ter como saída a imagem com os quatro quadrantes espelhados trocados. Para esse fim inicialmente declaramos na imagem de entrada 4 regiões de interesse por meio do código abaixo:
+   Este filto é usado para correção de luminozidade de uma imagem, onde a luminação não seja uniforme e tamvém é uma aplicação da DFT, com alguns processos antes:
 
-   ```
-    part_0 = img[0:int(mid_x), 0:int(mid_x)]
-    part_1 = img[0:int(mid_x), int(mid_y):data_img[1]]
-    part_2 = img[int(mid_x):data_img[0], 0:int(mid_y)]
-    part_3 = img[int(mid_x):data_img[0], int(mid_y):data_img[1]]
-
-   ```
-
-   então criamos uma imagem de saída como o clone da imagem de entrada, e colamos as regiões de interesse nas posições corretas, como visto no código abaixo
-
-   ```
-    img_modify[0:int(mid_x), 0:int(mid_y)] = part_3
-    img_modify[0:int(mid_x), int(mid_y):data_img[1]] = part_2
-    img_modify[int(mid_x):data_img[0], 0:int(mid_y)] = part_1
-    img_modify[int(mid_x):data_img[0], int(mid_y):data_img[1]] = part_0
-   ```
+   1. Normalizar a imagem
+   2. Aplicar o logritmo a imagem
+   3. Calcula DFT
+   4. Cria o filtro
+   5. Multiplica DFT por Filtro resultando no imagem com iluminação mais uniforme
 
    E obtivemos a seguinte imagem como saída:
 
    <h1 align="center">
-   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/changeRegions.png"/>
+   <img alt="Imagem de Saída" title="#Figure 2. Imagem de Saída" src="https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/assets/filtro_homoformico.png"/>
    </h1>
 
 # Detecção de borda com o algoritmo Canny
