@@ -99,16 +99,16 @@
 
   - [x] Exercises [tiltshift.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/tiltshift.ipynb) and [tiltshiftVideo.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/first_unit/ipynb/tiltshiftVideo.ipynb)
 
-- [ ] Frequency domain filtering:
+- [x] Frequency domain filtering:
 
-  - [ ] Description of the program [dft.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/dft.ipynb)
-  - [ ] Exercises [homomorphicFilter.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/homomorphicFilter.ipynb)
+  - [x] Description of the program [dft.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/dft.ipynb)
+  - [x] Exercises [homomorphicFilter.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/homomorphicFilter.ipynb)
 
-- [ ] Edge detection with the Canny algorithm:
+- [x] Edge detection with the Canny algorithm:
 
-  - [ ] Canny and art with pointillism [pointillesm.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/pointillesm.ipynb)
-  - [ ] Description of the program [canny.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/canny.ipynb)
-  - [ ] Exercises [cannypoints.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/cannypoints.ipynb)
+  - [x] Canny and art with pointillism [pointillesm.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/pointillesm.ipynb)
+  - [x] Description of the program [canny.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/canny.ipynb)
+  - [x] Exercises [cannypoints.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/cannypoints.ipynb)
 
 - [ ] Vector quantization with k-means:
   - [ ] Description of the program [kmeans.ipynb](https://github.com/jhonatheberson/digital-image-processing/blob/master/second_unit/ipynb/kmeans.ipynb)
